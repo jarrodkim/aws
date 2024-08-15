@@ -1,5 +1,6 @@
 FROM nginx:1.14-alpine
-MAINTAINER "jarrod kim <jarrod.kim@gmail.com>"
+LABEL email="jarrod.kim@gmail.com"
+LABEL name="jarrod.kim"
 
 COPY ./index.html /usr/share/nginx/html/index.html
 
